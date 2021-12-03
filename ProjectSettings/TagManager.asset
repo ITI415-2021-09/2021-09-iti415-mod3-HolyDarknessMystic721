@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Loader
+  - Collectable
   layers:
   - Default
   - TransparentFX
