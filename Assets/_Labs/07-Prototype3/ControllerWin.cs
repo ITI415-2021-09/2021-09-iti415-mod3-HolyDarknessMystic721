@@ -39,5 +39,10 @@ public class ControllerWin : MonoBehaviour {
             
             SetCountText();
         }
+
+        if (other.gameObject.tag == "Goal") {
+            
+            winText.SetActive(true);
+        }
     }
 }
