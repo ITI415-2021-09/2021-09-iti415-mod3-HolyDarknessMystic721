@@ -8,7 +8,7 @@ public class Goal : MonoBehaviour {
 
     void OnTriggerEnter(Collider other) {
 
-        if (other.gameObject.tag == "FPSController") {
+        if (other.gameObject.tag == "Player") {
             Goal.goalHit = true;
             Material mat = GetComponent<Renderer>().material;
             Color c = mat.color;

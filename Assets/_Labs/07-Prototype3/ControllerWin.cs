@@ -27,8 +27,9 @@ public class ControllerWin : MonoBehaviour {
 
     void SetCountText() {
 
-        scoreCounter.text = "Score: " + score.ToString();
+        scoreCounter.text = "Collect the Coins and Make it towards the Goal! Score: " + score.ToString();
     }
+
 
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Collectable")) {

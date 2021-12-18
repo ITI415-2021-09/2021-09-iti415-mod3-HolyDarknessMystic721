@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5108232843730258466}
   - component: {fileID: 5108232843730258469}
   - component: {fileID: 6264308665176134240}
+  - component: {fileID: 338033955510865933}
   m_Layer: 0
   m_Name: Collectable
   m_TagString: Collectable
@@ -222,6 +223,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56265dffe31d444f0868802e35d936eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &338033955510865933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5108232843730258468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed781829695fa49fe8e4e6d913a6b907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupCoin: {fileID: 5108232843730258469}
 --- !u!1 &8056838661053058606
 GameObject:
   m_ObjectHideFlags: 0
